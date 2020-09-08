@@ -1,0 +1,11 @@
+{
+	"name": "nnaraPowerBIWorkspace",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "PowerBIWorkspace",
+		"typeProperties": {
+			"workspaceID": "da477ecc-aa77-466f-a4fc-5dc422611ea4"
+		}
+	}
+}

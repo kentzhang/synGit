@@ -1,0 +1,30 @@
+{
+	"name": "NamesSQlTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "nnaraSqlMDPInstance",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LastName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Address",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Names"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

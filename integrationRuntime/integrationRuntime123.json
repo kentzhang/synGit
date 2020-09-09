@@ -1,5 +1,5 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime123",
 	"properties": {
 		"type": "Managed",
 		"typeProperties": {
@@ -11,10 +11,6 @@
 					"timeToLive": 0
 				}
 			}
-		},
-		"managedVirtualNetwork": {
-			"type": "ManagedVirtualNetworkReference",
-			"referenceName": "default"
 		}
 	}
 }

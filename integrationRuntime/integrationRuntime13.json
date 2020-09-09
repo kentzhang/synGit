@@ -1,10 +1,11 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime13",
 	"properties": {
 		"type": "Managed",
+		"description": "ujpo",
 		"typeProperties": {
 			"computeProperties": {
-				"location": "AutoResolve",
+				"location": "East US 2",
 				"dataFlowProperties": {
 					"computeType": "General",
 					"coreCount": 8,

@@ -1,7 +1,8 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime126",
 	"properties": {
 		"type": "Managed",
+		"description": "asd",
 		"typeProperties": {
 			"computeProperties": {
 				"location": "AutoResolve",
@@ -11,10 +12,6 @@
 					"timeToLive": 0
 				}
 			}
-		},
-		"managedVirtualNetwork": {
-			"type": "ManagedVirtualNetworkReference",
-			"referenceName": "default"
 		}
 	}
 }

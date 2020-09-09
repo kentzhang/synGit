@@ -1,7 +1,8 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime15",
 	"properties": {
 		"type": "Managed",
+		"description": "dxgfd",
 		"typeProperties": {
 			"computeProperties": {
 				"location": "AutoResolve",

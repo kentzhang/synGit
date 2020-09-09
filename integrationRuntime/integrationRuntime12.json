@@ -1,7 +1,8 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime12",
 	"properties": {
 		"type": "Managed",
+		"description": "tfdc",
 		"typeProperties": {
 			"computeProperties": {
 				"location": "AutoResolve",
@@ -11,10 +12,6 @@
 					"timeToLive": 0
 				}
 			}
-		},
-		"managedVirtualNetwork": {
-			"type": "ManagedVirtualNetworkReference",
-			"referenceName": "default"
 		}
 	}
 }

@@ -1,0 +1,7 @@
+{
+	"name": "SqlServer2",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/d3bb3b2e-9a7e-4194-9960-5171bd192117/resourceGroups/workspacemanagedrg-4a47ac8a-0726-4661-b428-492e259410b4/providers/Microsoft.Sql/servers/xltestwspe",
+		"groupId": "sqlServer"
+	}
+}

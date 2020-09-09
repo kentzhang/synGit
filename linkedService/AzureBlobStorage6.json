@@ -1,8 +1,7 @@
 {
-	"name": "AzureBlobStorage1",
+	"name": "AzureBlobStorage6",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "asd asd asd",
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
@@ -12,7 +11,7 @@
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "asd"
+				"secretName": "raasdasd"
 			}
 		},
 		"connectVia": {

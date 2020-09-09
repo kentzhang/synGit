@@ -1,10 +1,11 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime14",
 	"properties": {
 		"type": "Managed",
+		"description": "cgf",
 		"typeProperties": {
 			"computeProperties": {
-				"location": "AutoResolve",
+				"location": "East US 2",
 				"dataFlowProperties": {
 					"computeType": "General",
 					"coreCount": 8,

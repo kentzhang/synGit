@@ -1,0 +1,28 @@
+{
+	"name": "Mapping",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "SourceBlob",
+						"type": "DatasetReference"
+					},
+					"name": "dataflowsource"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "SourceBlob",
+						"type": "DatasetReference"
+					},
+					"name": "dfSinktest"
+				}
+			],
+			"transformations": [],
+			"script": "source(output(\n\t\tColumn_1 as string,\n\t\tColumn_2 as string,\n\t\tColumn_3 as string,\n\t\tColumn_4 as string,\n\t\tColumn_5 as string,\n\t\tColumn_6 as string,\n\t\tColumn_7 as string,\n\t\tColumn_8 as string,\n\t\tColumn_9 as string,\n\t\tColumn_10 as string,\n\t\tColumn_11 as string\n\t),\n\tallowSchemaDrift: true,\n\tvalidateSchema: false,\n\twildcardPaths:['*']) ~> dataflowsource\ndataflowsource sink(input(\n\t\tColumn_1 as string,\n\t\tColumn_2 as string,\n\t\tColumn_3 as string,\n\t\tColumn_4 as string,\n\t\tColumn_5 as string,\n\t\tColumn_6 as string,\n\t\tColumn_7 as string,\n\t\tColumn_8 as string,\n\t\tColumn_9 as string,\n\t\tColumn_10 as string,\n\t\tColumn_11 as string\n\t),\n\tallowSchemaDrift: true,\n\tvalidateSchema: false,\n\tpartitionFileNames:['nnara'],\n\tpartitionBy('hash', 1),\n\tskipDuplicateMapInputs: true,\n\tskipDuplicateMapOutputs: true) ~> dfSinktest"
+		}
+	}
+}

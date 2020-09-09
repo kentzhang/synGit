@@ -1,0 +1,58 @@
+{
+	"name": "blobdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Data.7f3ab5ac-9be1-4954-a724-78c561cce0f8.txt",
+				"folderPath": "logs/gameeventssqltoblob/yearno=2015/monthno=05/dayno=01",
+				"container": "adfsampledata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

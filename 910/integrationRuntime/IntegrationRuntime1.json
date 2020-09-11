@@ -2,6 +2,7 @@
 	"name": "IntegrationRuntime1",
 	"properties": {
 		"type": "Managed",
+		"description": "sss",
 		"typeProperties": {
 			"computeProperties": {
 				"location": "AutoResolve",

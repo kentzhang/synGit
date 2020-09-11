@@ -38,7 +38,8 @@
 			{
 				"cell_type": "markdown",
 				"source": [
-					"## Cell title\n"
+					"## Cell title here\n",
+					""
 				]
 			}
 		]

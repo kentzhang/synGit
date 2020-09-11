@@ -1,0 +1,16 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "select * FROM [dbo].[Table]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"name": "xlsqlpool",
+				"type": "SqlPool"
+			}
+		},
+		"type": "SqlQuery"
+	}
+}

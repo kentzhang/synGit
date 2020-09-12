@@ -1,0 +1,21 @@
+{
+	"name": "integrationRuntime13",
+	"properties": {
+		"type": "Managed",
+		"description": "ujpo",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US 2",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 0
+				}
+			}
+		},
+		"managedVirtualNetwork": {
+			"type": "ManagedVirtualNetworkReference",
+			"referenceName": "default"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "integrationRuntime126",
+	"properties": {
+		"type": "Managed",
+		"description": "asd",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "AutoResolve",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 0
+				}
+			}
+		}
+	}
+}

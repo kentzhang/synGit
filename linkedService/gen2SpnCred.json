@@ -1,19 +1,14 @@
 {
-	"name": "AzureDataLakeStorage1",
+	"name": "gen2SpnCred",
 	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
-		"description": "asd",
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://xlgen2.dfs.core.windows.net",
-			"accountKey": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "asd"
+			"credential": {
+				"referenceName": "spnCred",
+				"type": "CredentialReference"
 			}
 		},
 		"connectVia": {

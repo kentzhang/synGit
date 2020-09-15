@@ -1,14 +1,14 @@
 {
-	"name": "xlpool2",
+	"name": "xlsqlpool3",
 	"sku": {
 		"name": "DW100c"
 	},
 	"properties": {
 		"collation": "SQL_Latin1_General_CP1_CI_AS",
-		"creationDate": "2020-09-11T20:46:29.107Z",
+		"creationDate": "2020-09-15T04:34:53.67Z",
 		"maxSizeBytes": 263882790666240,
 		"provisioningState": "Succeeded",
 		"restorePointInTime": "0001-01-01T00:00:00",
-		"status": "Paused"
+		"status": "Online"
 	}
 }

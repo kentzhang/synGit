@@ -1,5 +1,5 @@
 {
-	"name": "xpool",
+	"name": "xlpool2",
 	"location": "southcentralus",
 	"properties": {
 		"autoPause": {
@@ -11,9 +11,9 @@
 			"maxNodeCount": 3,
 			"minNodeCount": 3
 		},
-		"creationDate": "2020-09-08T19:46:16.28Z",
-		"nodeCount": 10,
-		"nodeSize": "Small",
+		"creationDate": "2020-09-14T23:42:42.6733333Z",
+		"nodeCount": 3,
+		"nodeSize": "Medium",
 		"nodeSizeFamily": "MemoryOptimized",
 		"provisioningState": "Succeeded",
 		"sparkVersion": "2.4"
